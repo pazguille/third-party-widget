@@ -6,11 +6,11 @@
 
 1. Install its dependencies:
 
-  $ npm install
+        npm install
 
 2. Build for develop:
 
-  $ npm run build:watch
+        npm run build:watch
 
 3. Open `index.html` file in your browser.
 
