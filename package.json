@@ -1,7 +1,7 @@
 {
   "name": "third-party-widget",
   "version": "0.0.1",
-  "description": "An example of third-party widgets with Preact",
+  "description": "An example of third-party widgets from React components",
   "scripts": {
     "build": "NODE_ENV=production browserify -t [ ./preactify.js ] -t [ babelify ] -p [ bundle-collapser/plugin ] -s PaymentForm src/js/index.js -o build/bundle.js",
     "build:watch": "NODE_ENV=develop watchify -t [ ./preactify.js ] -t [ babelify ] -p [ bundle-collapser/plugin ] -s PaymentForm src/js/index.js -o build/bundle.js",
