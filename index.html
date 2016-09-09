@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Third-Party Widgets</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./build/bundle.js"></script>
+    <script>
+      PaymentForm({
+        container: document.querySelector('#root'),
+        color: 'salmon',
+        handleSubmit: function(data) {
+          alert(JSON.stringify(data));
+        }
+      });
+    </script>
+  </body>
+</html>
