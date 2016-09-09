@@ -1,6 +1,6 @@
 # third-party-widget
 
-> An example of third-party widgets with Preact
+> An example of third-party widgets from React components
 
 ## Development
 
