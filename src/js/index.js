@@ -4,7 +4,7 @@
 import Preact from 'preact';
 
 /**
- * Component
+ * React Component
  */
 import TokenFrom from './components/TokenForm';
 
